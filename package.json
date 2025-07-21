@@ -22,7 +22,7 @@
     "lhci:collect": "lhci collect",
     "lhci:upload": "lhci upload",
     "lhci:assert": "lhci assert",
-    "lhci:autorun": "lhci autorun --config=lighthouser.js --collect.url=http://localhost:5173",
+    "lhci:autorun": "lhci autorun",
     "ci:run": "npm ci && npm run build && concurrently -k \"npm run serve\" \"npm run api\" --raw & wait-on http://localhost:5173 http://localhost:3001 && npm run lhci:autorun && npm run test:all-browsers"
   },
   "dependencies": {
