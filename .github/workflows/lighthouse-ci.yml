@@ -27,8 +27,10 @@ jobs:
 
       - name: 🚀 Sobe front e API + espera servidores
         run: |
-          npx concurrently -k "npm run serve" "npm run api" --raw &
-          npx wait-on http://localhost:5173 http://localhost:3001
+          npx concurrently -k -s first -n "FRONT,API" \
+            "npm run serve" \
+            "npm run api" &
+          npx wait-on --timeout=60000 http://localhost:5173 http://localhost:3001
 
       - name: 📊 Executa Lighthouse CI
         run: npm run lhci:autorun
