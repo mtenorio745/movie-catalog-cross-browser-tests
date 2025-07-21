@@ -1,0 +1,111 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "O Rei Leão",
+      "type": "movie",
+      "genre": "Animação",
+      "releaseYear": 1994,
+      "watched": false,
+      "description": "Animação Disney amada por todas as idades, história universal sobre família, perda e superação.",
+      "coverImage": "https://i.postimg.cc/ZY8WpyTm/image-500x700.png"
+    },
+    {
+      "id": "2",
+      "title": "De Volta para o Futuro",
+      "type": "movie",
+      "genre": "Ficção Científica",
+      "releaseYear": 1985,
+      "watched": false,
+      "description": "Aventura sci-fi divertida, referência cultural para jovens e adultos.",
+      "coverImage": "https://i.postimg.cc/6pmqtrhr/image-500x700.png"
+    },
+    {
+      "id": "3",
+      "title": "E.T. – O Extraterrestre",
+      "type": "movie",
+      "genre": "Ficção Científica",
+      "releaseYear": 1982,
+      "watched": false,
+      "description": "Clássico de Steven Spielberg, emociona todas as gerações.",
+      "coverImage": "https://i.postimg.cc/mDQgY0Wj/image.png"
+    },
+    {
+      "id": "4",
+      "title": "Os Goonies",
+      "type": "movie",
+      "genre": "Família",
+      "releaseYear": 1985,
+      "watched": false,
+      "description": "Aventura infantojuvenil que encanta adultos nostálgicos e crianças.",
+      "coverImage": "https://i.postimg.cc/4N8NQ6qD/image.png"
+    },
+    {
+      "id": "5",
+      "title": "Forrest Gump – O Contador de Histórias",
+      "type": "movie",
+      "genre": "Drama",
+      "releaseYear": 1994,
+      "watched": false,
+      "description": "Drama/comédia universal, tocante e acessível.",
+      "coverImage": "https://i.postimg.cc/Kc0y6ZfL/image.png"
+    },
+    {
+      "id": "6",
+      "title": "Friends",
+      "type": "series",
+      "genre": "Comédia",
+      "releaseYear": 1994,
+      "watched": false,
+      "description": "Sitcom atemporal, sucesso mundial, leve, para toda família.",
+      "coverImage": "https://i.postimg.cc/XqRLRGz4/image.png"
+    },
+    {
+      "id": "7",
+      "title": "Chaves",
+      "type": "series",
+      "genre": "Comédia",
+      "releaseYear": 1973,
+      "watched": false,
+      "description": "Comédia latina popularíssima no Brasil e América Latina, assistida por gerações.",
+      "coverImage": "https://i.postimg.cc/T39SD0sb/image.png"
+    },
+    {
+      "id": "8",
+      "title": "Stranger Things",
+      "type": "series",
+      "genre": "Ficção Científica",
+      "releaseYear": 2016,
+      "watched": false,
+      "description": "Mistura de aventura, mistério e nostalgia dos anos 80, sucesso entre crianças, jovens e adultos.",
+      "coverImage": "https://i.postimg.cc/L6F0QGKf/image.png"
+    },
+    {
+      "id": "9",
+      "title": "Anne with an E",
+      "type": "series",
+      "genre": "Família",
+      "releaseYear": 2017,
+      "watched": false,
+      "description": "Série leve, inspiradora, baseada em clássico da literatura infantojuvenil.",
+      "coverImage": "https://i.postimg.cc/3wNLDTmM/image.png"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@test.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Regular User",
+      "email": "user@test.com",
+      "role": "user"
+    }
+  ],
+  "reviews": [],
+  "favorites": [],
+  "comments": []
+}

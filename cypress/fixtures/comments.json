@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "movieId": 1,
+    "userId": 2,
+    "comment": "Preciso assistir esse filme!",
+    "date": "2024-01-17T09:15:00Z"
+  },
+  {
+    "id": 2,
+    "movieId": 2,
+    "userId": 1,
+    "comment": "Melhor série de todos os tempos!",
+    "date": "2024-01-17T16:45:00Z"
+  }
+]

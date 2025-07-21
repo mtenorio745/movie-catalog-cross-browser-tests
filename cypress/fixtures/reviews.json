@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "movieId": 2,
+    "userId": 2,
+    "rating": 5,
+    "comment": "Série incrível! Uma das melhores já feitas.",
+    "date": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "movieId": 3,
+    "userId": 1,
+    "rating": 4,
+    "comment": "Excelente filme, Heath Ledger foi magistral.",
+    "date": "2024-01-16T14:30:00Z"
+  }
+]

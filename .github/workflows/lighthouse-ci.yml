@@ -1,0 +1,37 @@
+name: Lighthouse CI + Cypress
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: 📦 Instala dependências
+        run: npm ci
+
+      - name: 🧱 Build do projeto
+        run: npm run build
+
+      - name: 🚀 Sobe front e API + espera servidores
+        run: |
+          npx concurrently -k "npm run serve" "npm run api" --raw &
+          npx wait-on http://localhost:5173 http://localhost:3001
+
+      - name: 📊 Executa Lighthouse CI
+        run: npm run lhci:autorun
+
+      - name: 🧪 Testes E2E Cross-Browser
+        run: npm run test:all-browsers
