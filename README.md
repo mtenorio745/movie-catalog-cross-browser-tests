@@ -1,12 +1,12 @@
-# Movie Catalog - Portfólio QA Senior | Mateus Tenório
+# Movie Catalog - Portfólio QA | Mateus Tenório
 
 ## 👋 Sobre Este Projeto
 
-Olá! Sou **Mateus Tenório**, e este é meu projeto de portfólio como **QA Senior**, focado em demonstrar expertise avançada em **testes E2E cross-browser** com Cypress. Desenvolvi um catálogo completo de filmes e séries com funcionalidades complexas de CRUD, autenticação, avaliações e favoritos - tudo pensado para mostrar cenários reais de teste que encontro no dia a dia.
+Olá! Sou **Mateus Tenório**, e este é meu projeto de portfólio como **QA**, focado em demonstrar expertise avançada em **testes E2E cross-browser** com Cypress. Desenvolvi um catálogo completo de filmes e séries com funcionalidades complexas de CRUD, autenticação, avaliações e favoritos - tudo pensado para mostrar cenários reais de teste que encontro no dia a dia.
 
 ## 🎯 Por Que Criei Este Projeto?
 
-Como QA Senior, sempre busco demonstrar não apenas conhecimento técnico, mas também **visão estratégica de qualidade**. Este projeto vai além de testes simples - implementei:
+Como QA, sempre busco demonstrar não apenas conhecimento técnico, mas também **visão estratégica de qualidade**. Este projeto vai além de testes simples - implementei:
 
 - **Regras de negócio complexas** que realmente existem em aplicações reais
 - **Testes cross-browser** robustos que funcionam em Chrome, Firefox e Edge
@@ -113,7 +113,7 @@ npm run test:all-browsers
 
 ## 🎨 Design e UX (Visão de QA)
 
-Como QA Senior, sempre penso na experiência do usuário durante os testes:
+Como QA, sempre penso na experiência do usuário durante os testes:
 
 ### Princípios Que Apliquei
 - **Feedback visual imediato:** Botões mudam de cor ao favoritar
@@ -193,7 +193,7 @@ npx cypress run
 
 ## 🎖️ Diferenciais Deste Projeto
 
-### Como QA Senior
+### Como QA
 - **Visão estratégica:** Não apenas testo, penso na qualidade do produto
 - **Automação inteligente:** Testes que realmente agregam valor
 - **Documentação clara:** README que qualquer dev consegue seguir
@@ -229,4 +229,4 @@ Este projeto representa minha abordagem: **qualidade não é apenas encontrar bu
 
 ---
 
-*Desenvolvido com ☕ e muito carinho por **Mateus Tenório** - QA Senior apaixonado por qualidade e automação.*
+*Desenvolvido com ☕ e muito carinho por **Mateus Tenório** - QA Pleno apaixonado por qualidade e automação.*
